@@ -1,0 +1,21 @@
+@import "../../../assets/styles/variable.scss";
+
+.header {
+  background-color: #eed3b5;
+  width: 100vw;
+  border-bottom: 1px solid #b69060;
+  top: 0;
+  left: 0;
+}
+
+.logo-img {
+  padding: 8px;
+  padding-top: 10px;
+  @include breakpoint(md) {
+    width: 100px;
+  }
+
+  @include breakpoint(sm) {
+    width: 40px;
+  }
+}

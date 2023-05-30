@@ -1,0 +1,27 @@
+train: ../5_total_data/train/images
+val: ../5_total_data/test/images
+nc: 21
+names:
+  [
+    "rose",
+    "empty1",
+    "tulip",
+    "carnation",
+    "empty2",
+    "lily",
+    "lisianthus",
+    "small_chrysanthemum",
+    "pompom_blooms",
+    "sunflower",
+    "gerbera",
+    "alstroemeria",
+    "hydrangea",
+    "peony",
+    "stock",
+    "freesia",
+    "ranunculus",
+    "empty3",
+    "butterfly",
+    "cala",
+    "snapdragon",
+  ]

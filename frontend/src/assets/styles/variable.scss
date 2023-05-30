@@ -1,0 +1,140 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// color 관련
+$main-color: #a1887f;
+$main-accent-color: #795548;
+$light-blue-color: #b3bdf0;
+$lighter-blue-color: #e2e7ff;
+$skyblue-color: #f39c12;
+$violet-color: #6c5ce7;
+$white-color: #ffffff;
+$black-color: #222f3e;
+$beige-color: #ebceb9;
+$gray-color: #ced1d1;
+$yellow-color: #ffd80b;
+$red-color: #dc0000;
+$green-color: #299a56;
+$purple-color: #601f94;
+$border-color: #c2c7c7;
+
+// map color
+$map-main-color: #bcaaa4;
+$map-zero-color: #989898;
+$map-one-color: #bcaaa4;
+$map-two-color: #a1887f;
+$map-three-color: #8d6e63;
+$map-four-color: #795548;
+$map-five-color: #4e342e;
+$map-six-color: #3e2723;
+$map-hover-color: #f39c12;
+// mbti color
+$mbti-bg-color: #eae0da;
+$mbti-btn-color: #694e4e;
+// stateCode color
+$state-zero: #6c5ce7;
+$state-one: #f39c12;
+$state-two: #b3bdf0;
+$state-three: #b2bec3;
+$state-four: #b2bec3;
+$state-five: #b2bec3;
+
+$state-con-zero: #b2bec3;
+$state-con-one: #16a085;
+$state-con-two: #e74c3c;
+$state-con-three: #6c5ce7;
+$state-con-four: #6c5ce7;
+$state-con-five: #16a085;
+$state-con-six: #e74c3c;
+
+// button color
+$enroll-btn-color: #6c5ce7;
+$delete-btn-color: #e74c3c;
+$update-btn-color: #16a085;
+// size 관련
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 3rem;
+
+$header-height: 7.2rem;
+$footer-height: 4rem;
+
+$active-color: #424b5a;
+$light-gray-color: #e8edef;
+
+// font 관련
+@font-face {
+  font-family: "ballet";
+  src: url("./fonts/Ballet\ Harmony.ttf");
+}
+
+@font-face {
+  font-family: "namyeong";
+  src: url("./fonts/NanumMyeongjo.ttf");
+}
+
+@font-face {
+  font-family: "nasq";
+  src: url("./fonts/NanumSquareRoundL.ttf");
+}
+
+@font-face {
+  font-family: "KCC";
+  src: url("./fonts/KCC-Chassam.ttf");
+}
+
+@font-face {
+  font-family: "utoB";
+  src: url("./fonts/utoimage\ gothic\ B\ TTF.ttf");
+}
+
+@font-face {
+  font-family: "utoL";
+  src: url("./fonts/utoimage\ gothic\ L\ TTF.ttf");
+}
+
+@font-face {
+  font-family: "utoR";
+  src: url("./fonts/utoimage\ gothic\ R\ TTF.ttf");
+}
+
+@font-face {
+  font-family: "gobaB";
+  src: url("./fonts/GowunBatang-Bold.ttf");
+}
+
+@font-face {
+  font-family: "gobaR";
+  src: url("./fonts/GowunBatang-Regular.ttf");
+}
+
+$gowndodum-font: GownDodum;
+$sunflower-font: Sunflower;
+$spoqa-font: Spoqa;
+$hyemin-font: Hyemin;
+$bdja-font: BDJA;
+$seoul-font: Seoul;
+$noto-font: Noto;
+
+// transition duration
+$response-transition-time: 0.2s;
+
+// media break point size
+$sm: 390px;
+$md: 768px;
+
+@mixin breakpoint($point) {
+  // 0px ~ 390px
+  @if $point == sm {
+    @media (max-width: $sm) {
+      @content;
+    }
+  }
+  // 390px ~ 768px
+  @if $point == md {
+    @media (max-width: $md) {
+      @content;
+    }
+  }
+}

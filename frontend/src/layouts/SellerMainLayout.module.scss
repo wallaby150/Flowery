@@ -1,0 +1,60 @@
+@import "../assets/styles/variable.scss";
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/styles/fonts/Inter-SemiBold.ttf");
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+  background: #fafbfc;
+}
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  padding: 1.875rem 1.5rem 0.75rem;
+  gap: 1.5rem;
+  height: fit-content;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+}
+
+.modal {
+  width: fit-content;
+  background-color: #fff;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  /* transform: translateX(15rem); */
+  overflow-y: auto;
+  box-sizing: border-box;
+  position: absolute;
+  top: 3.75rem;
+  right: 0;
+}
+
+.modal.show {
+  transform: translateX(0);
+}

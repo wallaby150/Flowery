@@ -1,0 +1,44 @@
+.font1 {
+  display: flex;
+  justify-content: space-between;
+  width: 85vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+
+  /* or 120% */
+
+  letter-spacing: -0.1px;
+  padding: 0px 1.75rem 0px 0px;
+  /* Gray/700 */
+
+  color: #272d37;
+}
+
+.font2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+  height: 2.2rem;
+  /* or 185% */
+
+  letter-spacing: -0.1px;
+
+  color: #5f6d7e;
+}
+
+.font3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  /* identical to box height, or 143% */
+
+  /* Primary/600 */
+
+  color: #437ef7;
+}

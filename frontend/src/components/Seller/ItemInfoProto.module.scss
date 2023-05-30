@@ -1,0 +1,187 @@
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 302px;
+  height: 42px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+  padding-bottom: 1rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 170px;
+  height: 42px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+}
+
+.picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 68px;
+  overflow: hidden; /* 이미지가 border-radius 안에 꽉 차도록 */
+}
+
+.picture img {
+  width: 100%; /* 부모 요소인 .picture에 맞게 이미지 크기 조정 */
+  height: auto; /* 이미지 비율 유지 */
+  display: block; /* inline 요소를 block 요소로 변경 */
+}
+
+.number {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height, or 147% */
+
+  letter-spacing: -0.1px;
+
+  /* Gray/700 */
+
+  color: #272d37;
+}
+
+.time {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: -0.1px;
+
+  /* Gray/50 */
+
+  color: #5f6d7e;
+}
+
+.printing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  gap: 4px;
+
+  width: 4.3rem;
+  height: 22px;
+
+  /* Success/50 */
+
+  background: #f0faf0;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    letter-spacing: -0.1px;
+
+    /* Success/700 */
+
+    color: #2d8a39;
+  }
+}
+
+.reprinting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  gap: 4px;
+
+  width: 4.3rem;
+  height: 22px;
+
+  /* Success/50 */
+
+  background: #f5faff;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    letter-spacing: -0.1px;
+
+    /* Success/700 */
+
+    color: #3e67e3;
+  }
+}
+
+.printreject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  gap: 4px;
+
+  width: 4.3rem;
+  height: 22px;
+
+  /* Success/50 */
+
+  background: #dae0e6;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    letter-spacing: -0.1px;
+
+    /* Success/700 */
+
+    color: #707070;
+  }
+}

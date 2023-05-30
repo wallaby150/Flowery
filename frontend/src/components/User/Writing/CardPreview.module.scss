@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "KCC";
+    src: local("KCC"), url("../../../assets/styles/fonts/KCC-Chassam.ttf"),
+      format("truetype");
+  }
+  
+  .fontcheck {
+    font-family: "KCC";
+    // display: none
+  }

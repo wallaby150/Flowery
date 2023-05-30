@@ -1,0 +1,50 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.11'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'com.flowery'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'com.google.zxing:core:3.4.1'
+	implementation 'com.google.zxing:javase:3.4.1'
+
+
+	implementation platform('com.amazonaws:aws-java-sdk-bom:1.11.1000')
+	implementation 'com.amazonaws:aws-java-sdk-s3:1.12.67'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'commons-io:commons-io:2.11.0'    /* Apache commons-io */
+	implementation group: 'commons-fileupload', name: 'commons-fileupload', version: '1.4' /* Apache Commons FileUpload */
+
+	/* 문자 발송 */
+	implementation 'net.nurigo:sdk:4.2.7'
+	/* redis */
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+	implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
+	// [JWT]
+	implementation 'io.jsonwebtoken:jjwt:0.9.1'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
+
+.card {
+  // transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 1s;
+
+  &:hover {
+    .card-front {
+      transform: rotateY(-180deg);
+    }
+
+    .card-back {
+      transform: rotateY(0deg);
+    }
+  }
+}
+
+.card-front {
+  // position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(0deg);
+  transition: 1.3s;
+}
+
+.card-back {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  transition: 1.3s;
+}

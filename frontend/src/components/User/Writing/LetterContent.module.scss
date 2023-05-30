@@ -1,0 +1,472 @@
+///////////////////////////////////////////////////           편지지           ///////////////////////////////////////////////////////
+// 1번 편지지
+.letterPaper1 {
+  background-image: url("../../../assets/letters/Letter1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem;
+  height: 52vh;
+  // height: 100%;
+  // width: 35vh;
+  // width: 100%;
+  // object-fit: contain;
+  position: relative;
+  display: flex;
+
+  @media screen and (max-width: 640px) {
+    height: 52vh;
+  }
+}
+
+.letterContent1 {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5vh;
+  resize: none;
+  line-height: 1.765vh;
+  height: 38.5vh;
+  // height: 72%;
+  width: 26vh;
+  // width: 55%;
+  justify-items: center;
+  align-self: center;
+  display: flex;
+  overflow-y: hidden;
+
+  &:focus {
+    outline: 0cm;
+  }
+}
+
+// 2번 편지지
+// .letterPaper2 {
+//   background-image: url("../../../assets/letters/Letter2.png");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   background-position: center;
+//   justify-content: center;
+//   height: 68vh;
+//   // height: 100%;
+//   width: 68vh;
+//   // width: 100%;
+//   object-fit: contain;
+//   position: relative;
+//   display: flex;
+// }
+
+// .letterContent2 {
+//   position: absolute;
+//   border: none;
+//   background-color: transparent;
+//   // font-size: 2vh;
+//   resize: none;
+//   line-height: 2.3vh;
+//   height: 50vh;
+//   // height: 72%;
+//   width: 34vh;
+//   // width: 55%;
+//   justify-items: center;
+//   align-self: center;
+//   display: flex;
+//   overflow-y: hidden;
+
+//   &:focus {
+//     outline: 0cm;
+//   }
+// }
+
+.letterPaper2 {
+  background-image: url("../../../assets/letters/Letter2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem;
+  height: 52vh;
+  // height: 100%;
+  // width: 35vh;
+  // width: 100%;
+  // object-fit: contain;
+  position: relative;
+  display: flex;
+
+  @media screen and (max-width: 640px) {
+    height: 52vh;
+  }
+}
+
+.letterContent2 {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5vh;
+  resize: none;
+  line-height: 1.765vh;
+  height: 38.5vh;
+  // height: 72%;
+  width: 26vh;
+  // width: 55%;
+  justify-items: center;
+  align-self: center;
+  display: flex;
+  overflow-y: hidden;
+
+  &:focus {
+    outline: 0cm;
+  }
+}
+
+// 3번 편지지
+.letterPaper3 {
+  background-image: url("../../../assets/letters/Letter3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem;
+  height: 52vh;
+  // height: 100%;
+  // width: 35vh;
+  // width: 100%;
+  // object-fit: contain;
+  position: relative;
+  display: flex;
+
+  @media screen and (max-width: 640px) {
+    height: 52vh;
+  }
+}
+
+.letterContent3 {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5vh;
+  resize: none;
+  line-height: 1.765vh;
+  height: 38.5vh;
+  // height: 72%;
+  width: 26vh;
+  // width: 55%;
+  justify-items: center;
+  align-self: center;
+  display: flex;
+  overflow-y: hidden;
+
+  &:focus {
+    outline: 0cm;
+  }
+}
+
+// 4번 편지지
+.letterPaper4 {
+  background-image: url("../../../assets/letters/Letter4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem;
+  height: 52vh;
+  // height: 100%;
+  // width: 35vh;
+  // width: 100%;
+  // object-fit: contain;
+  position: relative;
+  display: flex;
+
+  @media screen and (max-width: 640px) {
+    height: 52vh;
+  }
+}
+
+.letterContent4 {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5vh;
+  resize: none;
+  line-height: 1.765vh;
+  height: 38.5vh;
+  // height: 72%;
+  width: 26vh;
+  // width: 55%;
+  justify-items: center;
+  align-self: center;
+  display: flex;
+  overflow-y: hidden;
+
+  &:focus {
+    outline: 0cm;
+  }
+}
+
+// 5번 편지지
+.letterPaper5 {
+  background-image: url("../../../assets/letters/Letter5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem;
+  height: 52vh;
+  // height: 100%;
+  // width: 35vh;
+  // width: 100%;
+  // object-fit: contain;
+  position: relative;
+  display: flex;
+
+  @media screen and (max-width: 640px) {
+    height: 52vh;
+  }
+}
+
+.letterContent5 {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5vh;
+  resize: none;
+  line-height: 1.765vh;
+  height: 38.5vh;
+  // height: 72%;
+  width: 26vh;
+  // width: 55%;
+  justify-items: center;
+  align-self: center;
+  display: flex;
+  overflow-y: hidden;
+
+  &:focus {
+    outline: 0cm;
+  }
+}
+
+///////////////////////////////////////////////////           글씨체           ///////////////////////////////////////////////////////
+// 삼립호빵체
+@font-face {
+  font-family: "SDSamliphopangche_Outline";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 김정철명조
+@font-face {
+  font-family: "KimjungchulMyungjo-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 안성탕면체
+@font-face {
+  font-family: "Ansungtangmyun-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ansungtangmyun-Bold.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 고령딸기체
+@font-face {
+  font-family: "GoryeongStrawberry";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 제주돌담체
+@font-face {
+  font-family: "EF_jejudoldam";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 평창평화체
+@font-face {
+  font-family: "PyeongChangPeace-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 조선100년체
+@font-face {
+  font-family: "ChosunCentennial";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 가나초콜릿체
+@font-face {
+  font-family: "ghanachoco";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 스위트
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// 하남다움체
+@font-face {
+  font-family: "HANAMDAUM";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/HANAMDAUM.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// 둘기마요고딕
+@font-face {
+  font-family: "Dovemayo_gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 거친둘기마요
+@font-face {
+  font-family: "Dovemayo_wild";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/Dovemayo_wild.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 수박화체
+@font-face {
+  font-family: "EF_watermelonSalad";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_watermelonSalad.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 마이쮸체
+@font-face {
+  font-family: "TTCrownMychewR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/TTCrownMychewR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 함박눈체
+@font-face {
+  font-family: "SF_HambakSnow";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 건축조각체
+@font-face {
+  font-family: "ARCHISCULPTURE_v200";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2303@1.0/ARCHISCULPTURE_v200.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// .letterFont1 {
+//   font-family: "HANAMDAUM";
+//   // font-size: 1.6vh;
+// }
+
+.letterFont1 {
+  font-family: "KimjungchulMyungjo-Bold";
+  // font-size: 2vh;
+}
+
+// .letterFont3 {
+//   font-family: "Ansungtangmyun-Bold";
+//   // font-size: 2vh;
+// }
+
+// .letterFont4 {
+//   font-family: "EF_jejudoldam";
+//   // font-size: 1.76vh;
+// }
+
+.letterFont2 {
+  font-family: "ChosunCentennial";
+  // font-size: 1.95vh;
+}
+
+.letterFont3 {
+  font-family: "ghanachoco";
+  // font-size: 1.75vh;
+}
+
+.letterFont4 {
+  font-family: "SUITE-Regular";
+  // font-size: 2.1vh;
+}
+
+// .letterFont8 {
+//   font-family: "SDSamliphopangche_Outline";
+//   // font-size: 2.1vh;
+// }
+
+// .letterFont5 {
+//   font-family: "Dovemayo_gothic";
+//   // font-size: 2.8vh;
+// }
+
+.letterFont5 {
+  font-family: "Dovemayo_wild";
+  // font-size: 2.5vh;
+}
+
+// .letterFont11 {
+//   font-family: "EF_watermelonSalad";
+//   // font-size: 1.7vh;
+// }
+
+// .letterFont12 {
+//   font-family: "TTCrownMychewR";
+//   // font-size: 2vh;
+// }
+
+.letterFont6 {
+  font-family: "SF_HambakSnow";
+  // font-size: 1.9vh;
+}
+
+// .letterFont14 {
+//   font-family: "GoryeongStrawberry";
+//   // font-size: 2.05vh;
+// }

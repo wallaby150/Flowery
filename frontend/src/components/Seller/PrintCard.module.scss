@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "KCC";
+  src: local("KCC"), url("../../assets/styles/fonts/KCC-Chassam.ttf"),
+    format("truetype");
+}
+
+.fontcheck {
+  font-family: "KCC";
+  // display: none
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10001;
+}
+
+.modalContent {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+
+  position: absolute;
+  width: 87%;
+  min-height: fit-content;
+  max-height: calc(100vh - 9rem);
+  left: 1.5rem;
+  top: 6rem;
+  overflow-y: auto;
+
+  /* Base/White */
+  background: #ffffff;
+
+  /* Neutral/700 */
+  border: 1px solid #dae0e6;
+
+  /* Shadow/XSM */
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  z-index: 1;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.modalContent > *:last-child {
+  margin-bottom: 1.5rem;
+}
+.stepone {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  margin-top: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1rem;
+
+  width: 90%;
+  height: fit-content;
+
+  /* Base/White */
+
+  background: #ffffff;
+  /* Neutral/700 */
+
+  border: 1px dashed #dae0e6;
+  border-radius: 10px;
+}
+
+.steptitle {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -0.02em;
+
+  /* Gray/700 */
+
+  color: #272d37;
+}
+
+.stephint {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.6875rem;
+  line-height: 1.25rem;
+  /* identical to box height, or 154% */
+
+  text-align: center;
+  letter-spacing: -0.1px;
+
+  /* Gray/50 */
+
+  color: #5f6d7e;
+}
+
+.close {
+  right: 0;
+}
+
+button {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1.125rem;
+  gap: 0.375rem;
+
+  width: 90%;
+  height: 3rem;
+
+  /* Base/White */
+
+  background: #ffffff;
+  /* Neutral/700 */
+
+  border: 1px solid #dae0e6;
+  /* Shadow/XSM */
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 6px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  /* identical to box height, or 147% */
+
+  /* Gray/700 */
+
+  color: #272d37;
+}
+
+.printbutton {
+  color: #ffffff;
+  background: #cccccc;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+.successbutton {
+  color: #ffffff;
+  background: #437ef7;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 100%;
+  height: 2.625rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.picture {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 68px;
+  overflow: hidden; /* 이미지가 border-radius 안에 꽉 차도록 */
+}
+
+.stepone img {
+  /* 부모 요소인 .picture에 맞게 이미지 크기 조정 */
+  margin: auto;
+  padding-bottom: 1.5rem;
+  height: auto; /* 이미지 비율 유지 */
+  display: block; /* inline 요소를 block 요소로 변경 */
+}
+
+.selected {
+  height: 120%;
+  border: 1.5px rgb(173, 173, 173) dashed;
+}
+
+.number {
+  font-weight: bold;
+}
+
+.time {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.classTim {
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 5px;
+}

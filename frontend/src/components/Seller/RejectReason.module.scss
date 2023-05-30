@@ -1,0 +1,33 @@
+.stepone {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  margin-top: 2.5rem;
+  //   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1rem;
+
+  width: 90%;
+  height: fit-content;
+
+  /* Base/White */
+
+  background: #ffffff;
+  /* Neutral/700 */
+
+  border: 1px dashed #dae0e6;
+  border-radius: 10px;
+
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    /* identical to box height, or 140% */
+
+    letter-spacing: -0.02em;
+  }
+}
